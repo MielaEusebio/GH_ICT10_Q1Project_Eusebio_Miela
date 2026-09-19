@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <!-- PyScript CSS [PyScript CDN] -->
+        <link rel="stylesheet" href="https://pyscript.net/releases/2026.7.2/core.css">
+    <!-- This script tag bootstraps PyScript -->
+        <script type="module" src="https://pyscript.net/releases/2026.7.2/core.js"></script>
+
+    
+    <title>Project</title>
+    <link rel="stylesheet" href="style.css">
+
+    
+
+
+</head>
+<body>
+    <div class="topnav">
+    <a class="navbar-brand">The Bakery</a>
+    <a class="active" href="index.html">Order</a>
+    <a href="index2.html">SKU Creator</a>
+    </div>
+    <!-- Navbar code (except for navbar-brand code): https://www.w3schools.com/howto/howto_js_topnav.asp -->
+    <br><br>
+
+    <div class="div">
+    <h1>The Bakery</h1>
+
+    <form>
+
+    <h3>Exclusive Extra Items</h3>
+    <input type="checkbox" id="item9" value="450">
+        <label id="item9-label">Tote Bag -- 450 pesos</label><br>
+
+    <input type="checkbox" id="item8" value="300">
+        <label id="item8-label">Mug with Coaster -- 300 pesos</label><br>
+
+    <input type="checkbox" id="item7" value="200">
+        <label id="item7-label">Bookmarks Set -- 200 pesos</label><br><br>
+
+    <h3>Cookies</h3>
+    <input type="checkbox" id="item6" value="45">
+        <label id="item6-label">Chocolate Chip Cookie -- 45 pesos</label><br>
+    <input type="checkbox" id="item5" value="50">
+        <label id="item5-label">White Chocolate Cookie -- 50 pesos</label><br>
+    <input type="checkbox" id="item4" value="55">
+        <label id="item4-label">Caramel Cookie -- 55 pesos</label><br><br>
+
+    <h3>Drinks</h3>
+        <input type="checkbox" id="item3" value="120">
+            <label id="item3-label">Iced Coffee -- 120 pesos</label><br>
+        <input type="checkbox" id="item2" value="150">
+            <label id="item2-label"> Caramel Latte -- 150 pesos</label><br>
+        <input type="checkbox" id="item1" value="155">
+            <label id="item1-label">Vanilla Cappucino -- 155 pesos</label><br><br>
+    <button type="submit" py-mouseover="create_order">Create Order</button><br><br>
+
+    <hr>
+    <span style="color:brown">
+        <h4>Subtotal</h4>
+    <div id="subtotal"></div>
+        <h4>VAT</h4>
+    <div id="vat"></div>
+        <h4>Total Amount</h4>
+    <div id="totalamount"></div>
+</span>
+
+    <py-script src="main.py"></py-script>     
+    </form>
+    </div>
+
+</body>
+</html>

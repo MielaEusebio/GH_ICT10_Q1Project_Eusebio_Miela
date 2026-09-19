@@ -1,0 +1,46 @@
+div{
+    margin:10px;
+}
+
+body {
+    background-color: #d8bca1;
+    color:rgb(95, 50, 26);
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+
+form {
+    border: 3px solid #a66c29;
+    background: #e5cfb6;
+    text-align: left;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  background-color: #ce9f72;
+  overflow:auto;
+  border: 7px solid #6a4f30;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #aa7849;
+  color: white;
+}
+/*Code from .topnav until .topnav a.active were all from: https://www.w3schools.com/howto/howto_js_topnav.asp*/
